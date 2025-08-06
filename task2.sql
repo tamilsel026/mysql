@@ -78,7 +78,7 @@ on e.departid = d.departid;
 
 select e.name,  d.departname 
 from employees02 e 
-full join department01 d
+union department01 d
 on e.departid = d.departid;
 
 select e.name,  d.departname 
