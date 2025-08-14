@@ -1,4 +1,4 @@
-use yamu;
+use book;
 create table Resgistrationsystem (
 userid int auto_increment primary key,
 username varchar(50) unique not null,
